@@ -1,0 +1,55 @@
+img {
+  position: relative;
+  width: 20%;
+}
+
+a img {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
+
+body {
+  padding: 8px;
+  background-color: rgb(94, 100, 76);
+  font-family: "fantasy", monospace;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: rgb(18, 121, 168);
+}
+
+li > a {
+  outline: none;
+  text-decoration: none;
+  color: #ec512a;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+.validator {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}
+
+span {
+  color: rgb(242, 245, 49);
+  font-weight: bold;
+}
+
+p,
+li,
+caption {
+  color: white;
+}
+
+p::first-letter {
+  font-size: xx-large;
+  font-weight: bold;
+}
