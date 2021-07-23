@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  background-color: lightskyblue;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.container {
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  background-color: darkslategrey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  margin: 1x 1px;
+}
+
+li {
+  border-right: 1px solid black;
+  float: left;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+ul.nav.navbar-nav.navbar-left {
+  margin: 0px 0px 0px 0px;
+}
+
+li a {
+  color: white;
+}
+
+.left-column {
+  background-color: rgb(146, 146, 146);
+  flex: 25%;
+  height: 300px;
+}
+
+.middle-column {
+  background-color: rgb(180, 180, 180);
+  flex: 50%;
+  height: 300px;
+}
+
+.right-column {
+  background-color: rgb(189, 189, 189);
+  flex: 25%;
+  height: 300px;
+}
+
+footer {
+  background-color: darkslategrey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
