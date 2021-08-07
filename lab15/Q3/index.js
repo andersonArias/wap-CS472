@@ -1,6 +1,6 @@
-const express = require('express'); // Include ExpressJS npm init
-const app = express(); //Create an ExpressJS app
-const bodyParser = require('body-parser'); // middleware ---- npm install express body-parser
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
 const path = require('path');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());

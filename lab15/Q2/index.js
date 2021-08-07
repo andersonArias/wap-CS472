@@ -1,6 +1,6 @@
-const express = require('express'); // Include ExpressJS
-const app = express(); //Create an ExpressJS app
-const bodyParser = require('body-parser'); // middleware
+const express = require('express'); 
+const app = express();
+const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded());
 
